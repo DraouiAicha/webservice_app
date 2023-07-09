@@ -1,4 +1,27 @@
-<div class="container">
-
-</div>
+<section id="head" class="bg-emerald-200">
+  <div class="container mx-auto text-center p-16">
+    <h1 class="text-3xl font-semibold mb-4">My First Tailwind Page</h1>
+    <h5 class="text-sm">Resize this responsive page to see the effect!</h5>
+  </div>
+</section>
+<section id="main">
+  <div class="container mx-auto items-center  flex flex-col md:flex-row">
+    <div class="p-8 md:w-1/2">
+      <h3 class="text-2xl font-semibold mb-2">Select User</h3>
+      <h5 class="mb-2">Enter a UID to get a user displayed</h5>
+      <h5 class="mb-2">Uid:</h5>
+      <input class="rounded-md border-2 md:w-3/5 w-64 h-8 mb-2"/><br>
+      <button class="border-2 rounded-md py-2 px-4 mr-2 ">Search</button>
+      <button class="border-2 rounded-md py-2 px-4 bg-emerald-300 ">Create</button>
+    </div>
+    <div class="p-8 md:w-1/2">
+      <div>
+        <div class="border-2 md:w-3/5 w-64 py-1 px-4 mb-0.5 rounded-md">FirstName: </div>
+        <div class="border-2 md:w-3/5 w-64 py-1 px-4 mb-0.5 rounded-md">LastName:</div>
+        <div class="border-2 md:w-3/5 w-64 py-1 px-4 rounded-md">City:</div>
+      </div>
+    </div>
+  </div>
+</section>
 <router-outlet></router-outlet>
+/
