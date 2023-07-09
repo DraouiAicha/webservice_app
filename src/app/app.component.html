@@ -7,12 +7,14 @@
 <section id="main">
   <div class="container mx-auto items-center  flex flex-col md:flex-row">
     <div class="p-8 md:w-1/2">
-      <h3 class="text-2xl font-semibold mb-2">Select User</h3>
-      <h5 class="mb-2">Enter a UID to get a user displayed</h5>
-      <h5 class="mb-2">Uid:</h5>
-      <input class="rounded-md border-2 md:w-3/5 w-64 h-8 mb-2"/><br>
-      <button class="border-2 rounded-md py-2 px-4 mr-2 ">Search</button>
-      <button class="border-2 rounded-md py-2 px-4 bg-emerald-300 ">Create</button>
+      <form >
+        <h3 class="text-2xl font-semibold mb-2">Select User</h3>
+        <h5 class="mb-2">Enter a UID to get a user displayed</h5>
+        <h5 class="mb-2">Uid:</h5>
+        <input class="rounded-md border-2 md:w-3/5 w-64 h-8 mb-2"/><br>
+        <button routerLink="/fetch" class="border-2 rounded-md py-2 px-4 mr-2 ">Search</button>
+        <button routerLink="/create" class="border-2 rounded-md py-2 px-4 bg-emerald-300 ">Create</button>
+      </form>
     </div>
     <div class="p-8 md:w-1/2">
       <div>

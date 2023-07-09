@@ -5,7 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FetchUserComponent } from './fetch-user/fetch-user.component';
+import {Routes} from "@angular/router";
 
+const routes:Routes = [
+  {path: '', component: FetchUserComponent},
+  {path: '/create', component: CreateUserComponent}
+];
 @NgModule({
   declarations: [
     AppComponent,
